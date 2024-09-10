@@ -45,7 +45,14 @@ function getLength(numbers) {
  * @returns {number} the sum of the numbers
  */
 function getSum(numbers) {
-  // TODO
+  let sum = 0;
+  let i = 0;
+  while (i < numbers.length) {
+    const number = numbers[i];
+    sum += number;
+    i += 1;
+  }
+  return sum;
 }
 
 /**
