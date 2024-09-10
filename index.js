@@ -60,7 +60,7 @@ function getSum(numbers) {
  * @returns {number} the mean of the numbers
  */
 function getMean(numbers) {
-  // TODO
+  return getSum(numbers) / numbers.length;
 }
 
 /**
