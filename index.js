@@ -109,5 +109,14 @@ function getEvens(numbers) {
  * @returns {number[]} the odd numbers in the array
  */
 function getOdds(numbers) {
-  // TODO
+  const oddNumbers = [];
+  i = 0;
+  while (i < numbers.length) {
+    const number = numbers[i];
+    if (number % 2 !== 0) {
+      oddNumbers.push(number);
+    }
+    i++;
+  }
+  return oddNumbers;
 }
