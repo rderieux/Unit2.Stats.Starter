@@ -68,7 +68,7 @@ function getMean(numbers) {
  * @returns {number} the smallest of the numbers
  */
 function getMin(numbers) {
-  // TODO
+  return Math.min(numbers[0], numbers[numbers.length - 1]);
 }
 
 /**
