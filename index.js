@@ -92,7 +92,16 @@ function getRange(numbers) {
  * @returns {number[]} the even numbers in the array
  */
 function getEvens(numbers) {
-  // TODO
+  const evenNumbers = [];
+  i = 0;
+  while (i < numbers.length) {
+    const number = numbers[i];
+    if (number % 2 === 0) {
+      evenNumbers.push(number);
+    }
+    i++;
+  }
+  return evenNumbers;
 }
 
 /**
