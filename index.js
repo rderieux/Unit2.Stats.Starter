@@ -76,7 +76,7 @@ function getMin(numbers) {
  * @returns {number} the largest of the numbers
  */
 function getMax(numbers) {
-  // TODO
+  return Math.max(numbers[0], numbers[numbers.length - 1]);
 }
 
 /**
